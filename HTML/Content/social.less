@@ -1,0 +1,249 @@
+﻿body {
+    .social {
+        font-family: "Open Sans";
+
+        .header {
+            width: 100%;
+            height: 68px;
+            background: linear-gradient(to right, #6870da, #6bafca);
+            position: relative;
+
+            .logo {
+                position: absolute;
+                left: 93px;
+                top: 14px;
+
+                img {
+                    width: 67px;
+                }
+            }
+
+            .search {
+                position: absolute;
+                left: 250px;
+                top: 14px;
+                width: 510px;
+                height: 42px;
+                background: linear-gradient(to right, #3bb0c1, #564ce0);
+                padding-left: 27px;
+                padding-top: 8px;
+
+                .s-first {
+                    width: 225px;
+                    float: left;
+
+                    input {
+                        width: 175px;
+                        background-color: #ffffff;
+                        border: none;
+                        height: 26px;
+                        font-size: 13px;
+                    }
+
+                    input:focus {
+                        box-shadow: none;
+                    }
+
+                    span {
+                        width: 50px;
+                        background-color: #ffffff;
+                        border: none;
+                        padding: 3px 12px;
+                        font-size: 18px;
+
+                        i {
+                            color: #5269d6;
+                        }
+                    }
+                }
+
+                .s-last {
+                    margin-left: 25px;
+                    width: 173px;
+                    height: 26px;
+                    float: left;
+
+                    select {
+                        height: 26px;
+                        padding: 2px 15px;
+                        font-size: 13px;
+                        border-radius: 3px;
+
+                        option {
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                button {
+                    background-color: transparent;
+                    color: #ffffff;
+                    border: none;
+                    margin-left: 17px;
+                    margin-top: 2px;
+                }
+            }
+        }
+
+        .navigation {
+            width: 100%;
+            height: 43px;
+            background-color: #0e4ff5;
+            padding: 10px 0px;
+
+            .user-button {
+                color: #2b50ac;
+                background-color: #3d72f6;
+                border: none;
+                border-radius: 50%;
+                margin-left: 247px;
+            }
+
+            .user-name {
+                margin-left: 22px;
+                color: #f5f6fe;
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            .setting-button, .bell-button {
+                color: #e4ecfc;
+                background-color: transparent;
+                border: none;
+                font-size: 16px;
+            }
+
+            .setting-button {
+                margin-left: 293px;
+            }
+
+            .bell-button {
+                margin-left: 2px;
+            }
+
+            .network {
+                display: inline;
+                margin-left: 120px;
+
+                button {
+                    color: #1a58f5;
+                    background-color: #fffeff;
+                    border: none;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+
+                .fb-button {
+                    padding: 2px 8.1px;
+
+                    i {
+                        font-weight: 600;
+                    }
+                }
+
+                .tw-button {
+                    padding: 2px 6px;
+                }
+
+                .yo-button {
+                    padding: 2px 6.5px;
+                }
+
+                .ma-button {
+                    padding: 2px 5.7px;
+                }
+            }
+        }
+
+        .content {
+            .left-site {
+                width: 250px;
+                background-color: #ffffff;
+                padding-left: 28px;
+                position: relative;
+
+                .avatar {
+                    position: absolute;
+                    left: 50px;
+                    top: -25px;
+                    height: 150px;
+                    width: 150px;
+                    background: url('Images/1_0018_Group-2-copy.png') no-repeat;
+                    background-size: cover;
+                    padding: 8px 8px 10px 9px;
+                    overflow: hidden;
+
+                    img {
+                        border-radius: 50%;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .edit-profile {
+                    color: #166a9d;
+                    padding-top: 128px;
+
+                    i {
+                        margin-right: 2px;
+                    }
+                }
+
+                .account-manager{
+                    margin: 10px 0;
+                    a {
+                        color: #312c2c;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-decoration: underline;
+                    }
+                }
+                .complete-measure{
+                        font-size: 13px;
+                        color: #847e76;
+                    span{
+                        color:#ef2711;
+                    }
+                }
+                .action{
+                        list-style-type: none;
+                        padding-left: 0;
+                        font-size: 13px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        li{
+                            margin-bottom:2px;
+                            a{
+                                color:#272829;
+                                text-decoration:none;
+                                i{
+                                    margin-right: 7px;
+                                }
+                            }
+                        }
+                }
+                .contact{
+                        font-size: 10px;
+                    i{
+                        font-size: 13px;
+                         margin-right: 7px;
+                    }
+                    .address{
+                        margin-right:10px;
+                    }
+                }
+            }
+
+            .center-site {
+                width: 535px;
+                background-color: #f6f7f9;
+            }
+
+            .right-site {
+                width: 355px;
+                background-color: #ffffff;
+            }
+        }
+    }
+}
