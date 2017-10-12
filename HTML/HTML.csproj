@@ -225,6 +225,17 @@
     <Content Include="Content\Images\1_0005_logo-.png" />
     <Content Include="Content\Images\1_0018_Group-2-copy.png" />
     <Content Include="Content\Images\1_0027_images.png" />
+    <Content Include="Content\Images\no-photo.png" />
+    <Content Include="Content\Images\Service_Icons\atm.png" />
+    <Content Include="Content\Images\Service_Icons\bank.png" />
+    <Content Include="Content\Images\Service_Icons\bus.png" />
+    <Content Include="Content\Images\Service_Icons\cofee.png" />
+    <Content Include="Content\Images\Service_Icons\gas.png" />
+    <Content Include="Content\Images\Service_Icons\hotel.png" />
+    <Content Include="Content\Images\Service_Icons\movie.png" />
+    <Content Include="Content\Images\Service_Icons\pub.png" />
+    <Content Include="Content\Images\Service_Icons\restaurant.png" />
+    <Content Include="Content\Images\Service_Icons\shop.png" />
     <Content Include="Content\Images\user-ca-nhan.jpg" />
     <Content Include="Content\social.css">
       <DependentUpon>social.less</DependentUpon>
@@ -232,6 +243,7 @@
     <Content Include="Content\social.min.css">
       <DependentUpon>social.css</DependentUpon>
     </Content>
+    <Content Include="Content\Temps\my-house.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
