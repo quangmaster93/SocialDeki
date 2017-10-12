@@ -135,6 +135,7 @@ body .social .content .left-site {
   background-color: #ffffff;
   padding-left: 28px;
   position: relative;
+  float: left;
 }
 body .social .content .left-site .avatar {
   position: absolute;
@@ -327,7 +328,100 @@ body .social .content .left-site .event-list .block li button {
 body .social .content .center-site {
   width: 535px;
   background-color: #f6f7f9;
-  padding: 25px;
+  padding: 15px;
+  float: left;
+}
+body .social .content .center-site .new-status {
+  border: 1px solid rgba(111, 103, 103, 0.15);
+  border-radius: 3px;
+}
+body .social .content .center-site .new-status .action {
+  padding: 7px;
+}
+body .social .content .center-site .new-status .action span {
+  color: #3f73b9;
+  font-weight: 600;
+  font-size: 12px;
+}
+body .social .content .center-site .new-status .action span i {
+  margin-right: 6px;
+  color: rgba(49, 58, 66, 0.91);
+}
+body .social .content .center-site .new-status .action span:first-child {
+  color: rgba(49, 58, 66, 0.91);
+}
+body .social .content .center-site .new-status .status {
+  border-top: 1px solid rgba(111, 103, 103, 0.15);
+  padding: 0px 10px;
+  background-color: #ffffff;
+}
+body .social .content .center-site .new-status .status > div {
+  border-bottom: 1px solid rgba(111, 103, 103, 0.15);
+  padding: 13px 0px 3px 0px;
+  position: relative;
+}
+body .social .content .center-site .new-status .status > div .avatar {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  height: 50px;
+  width: 50px;
+  background: url('Images/1_0018_Group-2-copy.png') no-repeat;
+  background-size: cover;
+  padding: 4px;
+  overflow: hidden;
+}
+body .social .content .center-site .new-status .status > div .avatar img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+body .social .content .center-site .new-status .status > div .text {
+  /*top: 20px;
+                                left: 56px;*/
+  padding-left: 55px;
+  width: 100%;
+  padding-top: 7px;
+}
+body .social .content .center-site .new-status .status > div .text textarea {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  resize: none;
+}
+body .social .content .center-site .new-status .status > div .text textarea:focus {
+  border: none;
+  outline: none;
+}
+body .social .content .center-site .new-status .option {
+  padding: 5px 10px;
+  background-color: #ffffff;
+}
+body .social .content .center-site .new-status .option button {
+  padding: 7px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f6f7f9;
+  font-weight: bold;
+}
+body .social .content .center-site .new-status .option button i.fa-photo {
+  margin-right: 8px;
+  color: rgba(104, 175, 82, 0.77);
+  font-size: 14px;
+}
+body .social .content .center-site .new-status .option button i.fa-smile-o {
+  margin-right: 8px;
+  color: #ffffff;
+  background-color: #e2b20c;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 0px 1px;
+}
+body .social .content .center-site .new-status .option button i.fa-circle {
+  font-size: 6px;
+  color: #a0aab3;
+  margin: 0 1px;
+  vertical-align: middle;
 }
 body .social .content .right-site {
   width: 355px;

@@ -162,6 +162,7 @@
                 background-color: #ffffff;
                 padding-left: 28px;
                 position: relative;
+                float: left;
 
                 .avatar {
                     position: absolute;
@@ -339,9 +340,10 @@
                             text-transform: uppercase;
                             height: 49px;
                             margin-bottom: 9px;
+
                             .date-month {
                                 position: absolute;
-                                top: 2px;   
+                                top: 2px;
                                 width: 28px;
                                 color: #2d7ebf;
 
@@ -399,7 +401,117 @@
             .center-site {
                 width: 535px;
                 background-color: #f6f7f9;
-                padding:25px;
+                padding: 15px;
+                float: left;
+
+                .new-status {
+                    border: 1px solid rgba(111, 103, 103, 0.15);
+                    border-radius: 3px;
+
+                    .action {
+                        padding: 7px;
+
+                        span {
+                            color: #3f73b9;
+                            font-weight: 600;
+                            font-size: 12px;
+
+                            i {
+                                margin-right: 6px;
+                                color: rgba(49, 58, 66, 0.91);
+                            }
+                        }
+
+                        span:first-child {
+                            color: rgba(49, 58, 66, 0.91);
+                        }
+                    }
+
+                    .status {
+                        border-top: 1px solid rgba(111, 103, 103, 0.15);
+                        padding: 0px 10px;
+                        background-color: #ffffff;
+
+                        > div {
+                            border-bottom: 1px solid rgba(111, 103, 103, 0.15);
+                            padding: 13px 0px 3px 0px;
+                            position: relative;
+
+                            .avatar {
+                                position: absolute;
+                                top: 12px;
+                                left: 0px;
+                                height: 50px;
+                                width: 50px;
+                                background: url('Images/1_0018_Group-2-copy.png') no-repeat;
+                                background-size: cover;
+                                padding: 4px;
+                                overflow: hidden;
+
+                                img {
+                                    border-radius: 50%;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .text {
+                                /*top: 20px;
+                                left: 56px;*/
+                                padding-left: 55px;
+                                width: 100%;
+                                padding-top: 7px;
+
+                                textarea {
+                                    width: 100%;
+                                    max-width: 100%;
+                                    border: none;
+                                    resize: none;
+                                }
+
+                                textarea:focus {
+                                    border: none;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .option {
+                        padding: 5px 10px;
+                        background-color: #ffffff;
+
+                        button {
+                            padding: 7px 15px;
+                            border-radius: 25px;
+                            border: none;
+                            background-color: #f6f7f9;
+                            font-weight: bold;
+
+                            i.fa-photo {
+                                margin-right: 8px;
+                                color: rgba(104, 175, 82, 0.77);
+                                font-size: 14px;
+                            }
+
+                            i.fa-smile-o {
+                                margin-right: 8px;
+                                color: #ffffff;
+                                background-color: #e2b20c;
+                                border-radius: 50px;
+                                font-size: 15px;
+                                padding: 0px 1px;
+                            }
+
+                            i.fa-circle {
+                                font-size: 6px;
+                                color: #a0aab3;
+                                margin: 0 1px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
             }
 
             .right-site {
