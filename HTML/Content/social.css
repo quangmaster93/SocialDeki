@@ -426,4 +426,53 @@ body .social .content .center-site .new-status .option button i.fa-circle {
 body .social .content .right-site {
   width: 355px;
   background-color: #ffffff;
+  padding: 12px;
+}
+body .social .content .right-site img {
+  max-width: 100%;
+}
+body .social .content .right-site .panel {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0;
+}
+body .social .content .right-site .panel .panel-heading {
+  background-color: #0f466e;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0px;
+}
+body .social .content .right-site .panel .panel-body {
+  padding: 0;
+  padding-top: 10px;
+}
+body .social .content .right-site .services {
+  padding: 0;
+}
+body .social .content .right-site .services li {
+  list-style-type: none;
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+body .social .content .right-site .services li img {
+  border-radius: 50%;
+  max-height: 100%;
+}
+body .social .content .right-site .services li:nth-child(2n+1) {
+  background: #e8e8e8;
+}
+body .social .content .right-site .virtual-views {
+  padding: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+body .social .content .right-site .virtual-views li {
+  list-style-type: none;
+}
+body .social .content .right-site .virtual-views li img {
+  width: 100%;
+}
+body .social .content .right-site .virtual-views li:nth-child(2n+1) {
+  background: #e8e8e8;
 }
