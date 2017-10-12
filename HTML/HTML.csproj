@@ -225,6 +225,8 @@
     <Content Include="Content\Images\1_0005_logo-.png" />
     <Content Include="Content\Images\1_0018_Group-2-copy.png" />
     <Content Include="Content\Images\1_0027_images.png" />
+    <Content Include="Content\Images\icons-f.png" />
+    <Content Include="Content\Images\icons.png" />
     <Content Include="Content\Images\no-photo.png" />
     <Content Include="Content\Images\Service_Icons\atm.png" />
     <Content Include="Content\Images\Service_Icons\bank.png" />
